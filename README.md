@@ -37,8 +37,8 @@ sudo apt-get install libmysqlclient-dev
 3. make
 4. ./sem
 
-Note - minimum cmake version required is 3.10 , if below version is available than make changes in the CMakeLists.txt file accordingly.
-Note - if directory name code is changes to something else or location is changed after running than delete CMakeCache.txt file and follow the steps to run it successfully.
+Note - minimum cmake version required is 3.1 , if below version is available than make changes in the CMakeLists.txt file accordingly.
+Note - if directory name code is changes to something else or location is changed after running than delete CMakeCache.txt file and follow the above steps to run it successfully.
 
 ## Built With
 
