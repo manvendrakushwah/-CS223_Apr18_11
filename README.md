@@ -9,64 +9,39 @@
 
 Also all the issuing and submitting processes will be done under the surveillance of the security worker for the better security of equipment, so a password with be required to complete any of the above two processes to complete, which will be available with the security worker.
 
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-
 ### Prerequisites
 
  * A computer with Linux Operating system.
  * An active internet connectivity.
+ * cmake, make and mysqlclient library (if not available follow instructions given below to install)
+ 
+### Installing cmake
+use below given command to install cmake if not available
+sudo apt-get install cmake
+
+### Installing make
+use below given command to install make if not available
+sudo apt-get install make
+
+### Installing mysqlclient library
+use below given command to install mysqlclient library
+sudo apt-get install libmysqlclient-dev
     
     
-### Installing
+### Installing and running code
+1. cd code
+2. cmake CMakeLists.txt
+3. make
+4. ./sem
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Note - minimum cmake version required is 3.10 , if below version is available than make changes in the CMakeLists.txt file accordingly.
+Note - if directory name code is changes to something else or location is changed after running than delete CMakeCache.txt file and follow the steps to run it successfully.
 
 ## Built With
 
 * [AWS](https://aws.amazon.com/rds/)- Mysql Databse server
 * [CLion](https://www.jetbrains.com/clion/) - Code creation and testing
+* [Codeblocks](https://www.jetbrains.com/clion/) - Code creation and testing
 
 
 
