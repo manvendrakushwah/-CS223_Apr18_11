@@ -17,14 +17,17 @@ Also all the issuing and submitting processes will be done under the surveillanc
  
 ### Installing cmake
 use below given command to install cmake if not available
+
 sudo apt-get install cmake
 
 ### Installing make
 use below given command to install make if not available
+
 sudo apt-get install make
 
 ### Installing mysqlclient library
 use below given command to install mysqlclient library
+
 sudo apt-get install libmysqlclient-dev
     
     
