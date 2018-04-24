@@ -44,7 +44,7 @@ Note - if directory name code is changes to something else or location is change
 
 * [AWS](https://aws.amazon.com/rds/)- Mysql Databse server
 * [CLion](https://www.jetbrains.com/clion/) - Code creation and testing
-* [Codeblocks](https://www.jetbrains.com/clion/) - Code creation and testing
+* [Codeblocks](http://www.codeblocks.org) - Code creation and testing
 
 
 
